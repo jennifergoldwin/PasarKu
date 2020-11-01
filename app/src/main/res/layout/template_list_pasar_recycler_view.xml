@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    android:outlineSpotShadowColor="@color/purple_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/template_list_imgView"
+            android:scaleType="matrix"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@color/purple_200"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/template_list_namaPasar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pasar Seger Selalu"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/template_list_alamatPasar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jln. Kayu Bakar, Lagsana, Kec.."/>
+
+            <TextView
+                android:id="@+id/template_list_JlhToko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_store"
+                android:text="18 Toko"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/template_list_toggle"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="5dp"
+                    android:textOff=""
+                    android:textOn=""
+                    android:onClick="customToggle"
+                    android:background="@drawable/selector"/>
+
+                <TextView
+                    android:id="@+id/template_list_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Lihat Pasar"
+                    android:textSize="16sp"
+                    android:drawableEnd="@drawable/ic_arrow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

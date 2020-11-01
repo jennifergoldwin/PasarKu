@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "911308412230",
+    "firebase_url": "https://pasarku-bdfd9.firebaseio.com",
+    "project_id": "pasarku-bdfd9",
+    "storage_bucket": "pasarku-bdfd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911308412230:android:70484d1f403cfd76b48147",
+        "android_client_info": {
+          "package_name": "com.example.pasar_ku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911308412230-60n27h4j27upj63jkn6088erb12tfuvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pasar_ku",
+            "certificate_hash": "c8b87903a21f11ccb696515cc47b0961dc50adb3"
+          }
+        },
+        {
+          "client_id": "911308412230-af94lr1n64pti6v7bukrh9kqpeq00isl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOtEUjIkkFK3B7mT2qwDbnmSdZrruWaQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911308412230-h20p3jsj8o7e56nftt5os89v7gc9rm9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

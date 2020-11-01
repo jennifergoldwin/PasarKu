@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.KategoriTokoFragment"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/ic_store"
+        android:text="Sayur-sayuran"
+        android:drawableRight="@drawable/ic_arrow"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/ic_store"
+        android:text="Daging"
+        android:drawableRight="@drawable/ic_arrow"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/ic_store"
+        android:text="Buah-buahan"
+        android:drawableRight="@drawable/ic_arrow"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/ic_store"
+        android:text="Produk Susu dan Telur"
+        android:drawableRight="@drawable/ic_arrow"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/ic_store"
+        android:text="Sembako dan lainnya"
+        android:drawableRight="@drawable/ic_arrow"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/ic_store"
+        android:text="Bumbu dan Rempah-Rempah"
+        android:drawableRight="@drawable/ic_arrow"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/ic_store"
+        android:text="Jajanan lainnya"
+        android:drawableRight="@drawable/ic_arrow"/>
+</LinearLayout>

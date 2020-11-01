@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    android:outlineSpotShadowColor="@color/purple_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/template_list_toko_imgView"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="matrix"
+            android:src="@color/purple_200"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/template_list_toko_namaPasar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toko Bumbu Sedap Selalu"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:elevation="12dp"
+                    app:cardCornerRadius="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:innerRadius="40dp"
+                    android:shape="ring"
+                    android:thicknessRatio="4"
+                    app:cardPreventCornerOverlap="false">
+                    <ImageView
+                        android:id="@+id/template_list_toko_imgPenjual"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logo"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/template_list_toko_namaPenjual"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text="Annie Nungsih"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/template_list_toko_kategoriToko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bumbu Dapur dan Rempah"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/template_list_toko_ratingToko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_rating_toko"
+                android:text="4.8"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:layout_marginTop="5dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ToggleButton
+                    android:id="@+id/template_list_toko_toggle"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="5dp"
+                    android:textOff=""
+                    android:textOn=""
+                    android:background="@drawable/selector"/>
+
+                <TextView
+                    android:id="@+id/template_list_toko_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Lihat Pasar"
+                    android:textSize="16sp"
+                    android:drawableEnd="@drawable/ic_arrow"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
